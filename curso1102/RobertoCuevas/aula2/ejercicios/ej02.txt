@@ -1,0 +1,4 @@
+ls -C: lista todos los archivos en columnas
+ls -lh: lista los archivos con su información correspondiente, en un formato legible para usuarios
+ls -i: lista los archivos junto a su número de serie o identificador
+

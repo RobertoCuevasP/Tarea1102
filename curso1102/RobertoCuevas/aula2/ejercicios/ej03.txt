@@ -1,0 +1,4 @@
+cp -v: copia los archivos o directorios explicando y especificando que fue lo que se realizó
+mkdir -p: crea un directorio asignándole directorios padres
+rm -d: elimina únicamente directorios que se encuentren vacíos
+

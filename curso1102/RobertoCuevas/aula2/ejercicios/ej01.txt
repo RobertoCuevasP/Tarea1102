@@ -1,0 +1,14 @@
+a.	ls: lista todos los archivos existentes en filas y columnas
+	ls -m: lista todos los archivos separados por comas
+	ls -l: lista todos los archivos en filas proveyendo mayor información de cada archivo
+	ls -l -v: lista todos los archivos en fila, con su respectiva información, lográndolo por alfabeto y numérico
+b.	ls a*: lista los archivos que comiencen por "a"
+	ls a*.c: lista aquellos archivos que comiencen por "a" y terminen en ".c" 
+	ls a??.c: lista los archivos que comiencen por "a", lleven 2 caracteres cualquiera y terminen en ".c"
+	ls a????.c: lista los archivos que comiencen por "a", lleven 3 caracteres por delante y terminan en ".c"
+	ls ?iii?.c: lista los archivos que inicien por un único caracter, le sigan los caracteres "iii", le continúa un caracter cualquiera y terminan en ".c" 
+	ls *9.c: lista aquellos archivos que terminen por "9.c"
+c.	ls ai[1-5].c: lista los archivos que inician por "ai" le sigan un número entre 1 y 5; y termina por ".c"
+	ls [a-c]ii1.c: lista los archivos que inician por una letra de la "a" a la "c" y termine por "ii1.c"
+d.	echo a*: muestra (imprime) todos los archivos que inicien por "a"
+e.	echo ai[1-5].c: imprime los archivos que comiencen por "ai", le siga un número entre 1 y 5 y termine en ".c"
